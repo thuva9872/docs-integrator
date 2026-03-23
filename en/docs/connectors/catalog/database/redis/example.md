@@ -2,7 +2,7 @@
 
 ## What You'll Build
 
-This guide demonstrates how to integrate a Redis in-memory data store into a WSO2 Integrator low-code project. You will configure a Redis connection, add an Automation entry point to drive the flow on a schedule, and wire a `set` remote function call that stores a key-value pair in Redis. The completed canvas shows an end-to-end Automation → Redis `set` → End flow ready for deployment.
+This guide demonstrates how to integrate a Redis in-memory data store into a WSO2 Integrator project. You will configure a Redis connection, add an Automation entry point to drive the flow on a schedule, and wire a `set` remote function call that stores a key-value pair in Redis. The completed canvas shows an end-to-end Automation → Redis `set` → End flow ready for deployment.
 
 **Operations used:**
 - **set** — Stores a string value at a specified key in the Redis data store, with an optional TTL (time-to-live) for automatic expiry.
