@@ -1263,6 +1263,7 @@ const sidebars: SidebarsConfig = {
           items: [
             'connectors/catalog/database/redis/setup-guide',
             'connectors/catalog/database/redis/action-reference',
+            'connectors/catalog/database/redis/example',
           ],
         },
         {
@@ -1435,6 +1436,7 @@ const sidebars: SidebarsConfig = {
           items: [
             'connectors/catalog/database/snowflake/setup-guide',
             'connectors/catalog/database/snowflake/action-reference',
+            'connectors/catalog/database/snowflake/example',
           ],
         },
         {
