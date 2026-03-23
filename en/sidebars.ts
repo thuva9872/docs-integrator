@@ -705,118 +705,107 @@ const sidebars: SidebarsConfig = {
           label: 'HubSpot CRM Deals',
           link: { type: 'doc', id: 'connectors/catalog/crm-sales/hubspot.crm.obj.deals/overview' },
           items: [
-            {
-              type: 'category',
-              label: 'MySQL',
-              link: { type: 'doc', id: 'connectors/catalog/database/mysql/overview' },
-              items: [
-                'connectors/catalog/database/mysql/setup-guide',
-                'connectors/catalog/database/mysql/action-reference',
-                'connectors/catalog/database/mysql/trigger-reference',
-              ],
-            },
-
-            {
-              type: 'category',
-              label: 'AWS Redshift',
-              link: { type: 'doc', id: 'connectors/catalog/database/aws.redshift/overview' },
-              items: [
-                'connectors/catalog/database/aws.redshift/setup-guide',
-                'connectors/catalog/database/aws.redshift/action-reference',
-              ],
-            },
-
-            {
-              type: 'category',
-              label: 'AWS Redshift Data',
-              link: { type: 'doc', id: 'connectors/catalog/database/aws.redshiftdata/overview' },
-              items: [
-                'connectors/catalog/database/aws.redshiftdata/setup-guide',
-                'connectors/catalog/database/aws.redshiftdata/action-reference',
-              ],
-            },
-
-            {
-              type: 'category',
-              label: 'Java JDBC',
-              link: { type: 'doc', id: 'connectors/catalog/database/java.jdbc/overview' },
-              items: [
-                'connectors/catalog/database/java.jdbc/setup-guide',
-                'connectors/catalog/database/java.jdbc/action-reference',
-              ],
-            },
-
-            {
-              type: 'category',
-              label: 'MongoDB',
-              link: { type: 'doc', id: 'connectors/catalog/database/mongodb/overview' },
-              items: [
-                'connectors/catalog/database/mongodb/setup-guide',
-                'connectors/catalog/database/mongodb/action-reference',
-              ],
-            },
-
-            {
-              type: 'category',
-              label: 'MSSQL',
-              link: { type: 'doc', id: 'connectors/catalog/database/mssql/overview' },
-              items: [
-                'connectors/catalog/database/mssql/setup-guide',
-                'connectors/catalog/database/mssql/action-reference',
-                'connectors/catalog/database/mssql/trigger-reference',
-              ],
-            },
-
-            {
-              type: 'category',
-              label: 'Oracle DB',
-              link: { type: 'doc', id: 'connectors/catalog/database/oracledb/overview' },
-              items: [
-                'connectors/catalog/database/oracledb/setup-guide',
-                'connectors/catalog/database/oracledb/action-reference',
-              ],
-            },
-
-            {
-              type: 'category',
-              label: 'PostgreSQL',
-              link: { type: 'doc', id: 'connectors/catalog/database/postgresql/overview' },
-              items: [
-                'connectors/catalog/database/postgresql/setup-guide',
-                'connectors/catalog/database/postgresql/action-reference',
-                'connectors/catalog/database/postgresql/trigger-reference',
-              ],
-            },
-
-            {
-              type: 'category',
-              label: 'Redis',
-              link: { type: 'doc', id: 'connectors/catalog/database/redis/overview' },
-              items: [
-                'connectors/catalog/database/redis/setup-guide',
-                'connectors/catalog/database/redis/action-reference',
-              ],
-            },
-
-            {
-              type: 'category',
-              label: 'Snowflake',
-              link: { type: 'doc', id: 'connectors/catalog/database/snowflake/overview' },
-              items: [
-                'connectors/catalog/database/snowflake/setup-guide',
-                'connectors/catalog/database/snowflake/action-reference',
-              ],
-            },
-
-            {
-              type: 'category',
-              label: 'CDC',
-              link: { type: 'doc', id: 'connectors/catalog/database/cdc/overview' },
-              items: [
-                'connectors/catalog/database/cdc/setup-guide',
-                'connectors/catalog/database/cdc/trigger-reference',
-              ],
-            },
+            'connectors/catalog/crm-sales/hubspot.crm.obj.deals/setup-guide',
+            'connectors/catalog/crm-sales/hubspot.crm.obj.deals/action-reference',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'HubSpot CRM Engagement Meeting',
+          link: { type: 'doc', id: 'connectors/catalog/crm-sales/hubspot.crm.engagement.meeting/overview' },
+          items: [
+            'connectors/catalog/crm-sales/hubspot.crm.engagement.meeting/setup-guide',
+            'connectors/catalog/crm-sales/hubspot.crm.engagement.meeting/action-reference',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'HubSpot CRM Engagement Notes',
+          link: { type: 'doc', id: 'connectors/catalog/crm-sales/hubspot.crm.engagement.notes/overview' },
+          items: [
+            'connectors/catalog/crm-sales/hubspot.crm.engagement.notes/setup-guide',
+            'connectors/catalog/crm-sales/hubspot.crm.engagement.notes/action-reference',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'HubSpot CRM Engagements Calls',
+          link: { type: 'doc', id: 'connectors/catalog/crm-sales/hubspot.crm.engagements.calls/overview' },
+          items: [
+            'connectors/catalog/crm-sales/hubspot.crm.engagements.calls/setup-guide',
+            'connectors/catalog/crm-sales/hubspot.crm.engagements.calls/action-reference',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'HubSpot CRM Engagements Communications',
+          link: { type: 'doc', id: 'connectors/catalog/crm-sales/hubspot.crm.engagements.communications/overview' },
+          items: [
+            'connectors/catalog/crm-sales/hubspot.crm.engagements.communications/setup-guide',
+            'connectors/catalog/crm-sales/hubspot.crm.engagements.communications/action-reference',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'HubSpot CRM Engagements Email',
+          link: { type: 'doc', id: 'connectors/catalog/crm-sales/hubspot.crm.engagements.email/overview' },
+          items: [
+            'connectors/catalog/crm-sales/hubspot.crm.engagements.email/setup-guide',
+            'connectors/catalog/crm-sales/hubspot.crm.engagements.email/action-reference',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'HubSpot CRM Engagements Tasks',
+          link: { type: 'doc', id: 'connectors/catalog/crm-sales/hubspot.crm.engagements.tasks/overview' },
+          items: [
+            'connectors/catalog/crm-sales/hubspot.crm.engagements.tasks/setup-guide',
+            'connectors/catalog/crm-sales/hubspot.crm.engagements.tasks/action-reference',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'HubSpot CRM Extensions Timelines',
+          link: { type: 'doc', id: 'connectors/catalog/crm-sales/hubspot.crm.extensions.timelines/overview' },
+          items: [
+            'connectors/catalog/crm-sales/hubspot.crm.extensions.timelines/setup-guide',
+            'connectors/catalog/crm-sales/hubspot.crm.extensions.timelines/action-reference',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'HubSpot CRM Extensions Videoconferencing',
+          link: { type: 'doc', id: 'connectors/catalog/crm-sales/hubspot.crm.extensions.videoconferencing/overview' },
+          items: [
+            'connectors/catalog/crm-sales/hubspot.crm.extensions.videoconferencing/setup-guide',
+            'connectors/catalog/crm-sales/hubspot.crm.extensions.videoconferencing/action-reference',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'HubSpot CRM Feedback',
+          link: { type: 'doc', id: 'connectors/catalog/crm-sales/hubspot.crm.obj.feedback/overview' },
+          items: [
+            'connectors/catalog/crm-sales/hubspot.crm.obj.feedback/setup-guide',
+            'connectors/catalog/crm-sales/hubspot.crm.obj.feedback/action-reference',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'HubSpot CRM Import',
+          link: { type: 'doc', id: 'connectors/catalog/crm-sales/hubspot.crm.import/overview' },
+          items: [
+            'connectors/catalog/crm-sales/hubspot.crm.import/setup-guide',
+            'connectors/catalog/crm-sales/hubspot.crm.import/action-reference',
+          ],
+        },
+        {
+          type: 'category',
+          label: 'HubSpot CRM Leads',
+          link: { type: 'doc', id: 'connectors/catalog/crm-sales/hubspot.crm.obj.leads/overview' },
+          items: [
+            'connectors/catalog/crm-sales/hubspot.crm.obj.leads/setup-guide',
+            'connectors/catalog/crm-sales/hubspot.crm.obj.leads/action-reference',
           ],
         },
         {
