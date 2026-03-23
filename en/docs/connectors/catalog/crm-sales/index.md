@@ -5,8 +5,6 @@ description: "CRM and sales connectors available in WSO2 Integrator."
 
 # CRM & Sales Connectors
 
-<!-- TODO: Searchable grid/table with: name, icon, 1-line description, supported operations, link to detail page -->
-
 ## Available Connectors
 
 | Connector | Description | Operations | Authentication |
@@ -37,7 +35,9 @@ description: "CRM and sales connectors available in WSO2 Integrator."
 | [HubSpot CRM Lists](hubspot.crm.lists/overview) | CRM list management with dynamic/manual lists, memberships, and folder organization | Create, Read, Update, Delete, Search, Membership, Folders | OAuth 2.0, Private App |
 | [HubSpot CRM Owners](hubspot.crm.owners/overview) | HubSpot CRM owner retrieval with filtering, pagination, and team assignments | List, Read | OAuth 2.0, Private App Token |
 | [HubSpot CRM Pipelines](hubspot.crm.pipelines/overview) | CRM pipeline and stage management with full CRUD and audit trail support | Create, Read, Update, Delete, Audit | OAuth 2.0 |
+| [HubSpot CRM Products](hubspot.crm.obj.products/overview) | HubSpot CRM product catalog management with individual and batch CRUD, search, and upsert | Create, Read, Update, Archive, Batch Create, Batch Read, Batch Update, Upsert, Search | OAuth 2.0, Bearer Token (Private App) |
 | [HubSpot CRM Properties](hubspot.crm.properties/overview) | CRM property management with CRUD operations, batch processing, and property groups | Create, Read, Update, Archive, Batch Create, Batch Read, Batch Archive | OAuth 2.0 |
+| [HubSpot CRM Schemas](hubspot.crm.obj.schemas/overview) | Manage HubSpot custom object schemas, properties, and inter-object associations | Create, Read, Update, Delete, Associate | OAuth 2.0, Bearer Token, API Key |
 | [HubSpot CRM Tickets](hubspot.crm.obj.tickets/overview.md) | CRM platform for managing customer support ticket records with pipeline and priority tracking | Create, Read, Update, Delete, Search, Merge, Batch Create, Batch Read, Batch Update | OAuth 2.0 |
 | [Salesforce](salesforce/overview.md) | CRM platform with records, queries, bulk data operations, and change event triggers | Create, Read, Update, Delete, Query, Bulk, Events | OAuth 2.0 |
 
