@@ -1,3 +1,9 @@
+---
+connector: true
+connector_name: "twilio"
+connector_version: "5.0.x"
+---
+
 # Actions
 
 The `ballerinax/twilio` package exposes the following clients:

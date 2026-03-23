@@ -1,3 +1,9 @@
+---
+connector: true
+connector_name: "twilio"
+connector_version: "5.0.x"
+---
+
 # Setup Guide
 
 This guide walks you through creating a Twilio account and obtaining the credentials required to use the Twilio connector.
